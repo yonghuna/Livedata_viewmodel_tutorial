@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:paddingHorizontral="10dp"
+
     >
 
     <TextView
@@ -34,10 +34,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="뺴기"
-        android:layout_marginHorizontal="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/plus_btn"
+        app:layout_constraintTop_toTopOf="@+id/userinput_edittext"
         tools:layout_editor_absoluteY="406dp" />
 
     <Button
